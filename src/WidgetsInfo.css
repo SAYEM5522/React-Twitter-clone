@@ -1,0 +1,24 @@
+.widgetsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+}
+.widgetsInfo:hover {
+  background-color: #eff1f2;
+}
+.widgetsInfo__detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 10px;
+}
+.widgetsInfo > button {
+  border: 1px solid #1da1f2;
+  text-transform: inherit;
+  border-radius: 20px;
+  color: #1da1f2;
+  font-size: 13px;
+  font-weight: 900 !important;
+}

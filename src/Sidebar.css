@@ -1,0 +1,51 @@
+.sidebar {
+  flex: 22%;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+}
+.explore {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding: 0px 3px;
+}
+.explore > h3 {
+  margin-left: 20px;
+}
+.sidebar__icon {
+  margin: 5px 25px;
+  font-size: 32px !important;
+  color: #1da1f2;
+  padding: 7px;
+}
+.sidebarInfo__active {
+  color: #1da1f2 !important;
+}
+.explore:hover {
+  color: #1da1f2;
+  background-color: #e8f5fe;
+  transition: color 100ms ease-in;
+  border-radius: 32px;
+  width: fit-content;
+}
+.sidebar__icon:hover {
+  background-color: #e8f5fe;
+  color: #1da1f2;
+  border-radius: 30px;
+}
+.sidebar > button {
+  padding: 10px;
+  margin-left: 22px;
+  min-width: 220px;
+  border-radius: 27px;
+  color: white;
+  background-color: #1da1f2;
+  text-transform: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.sidebar > button:hover {
+  background-color: #1da1f2;
+  color: white;
+}

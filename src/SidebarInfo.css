@@ -1,0 +1,19 @@
+.sidebarInfo {
+  display: flex;
+  align-items: center;
+  margin: 2px 20px;
+  padding: 10px 7px;
+}
+.sidebarInfo > h3 {
+  margin-left: 25px;
+}
+.sidebarInfo > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+.sidebarInfo:hover {
+  color: #1da1f2;
+  background-color: #e8f5fe;
+  transition: color 100ms ease-in;
+  border-radius: 32px;
+  width: fit-content;
+}

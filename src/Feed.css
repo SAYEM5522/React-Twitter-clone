@@ -1,0 +1,87 @@
+.feed {
+  flex: 48%;
+  border-right: 1px solid lightgray;
+  padding-bottom: 60px !important;
+}
+.fedd__header {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+.fedd__header > h3 {
+  font-weight: 900;
+}
+.fedd__header > .MuiSvgIcon-root {
+  font-size: 30px !important;
+  color: #1da1f2;
+  padding: 5px;
+}
+.fedd__header > .MuiSvgIcon-root:hover {
+  background-color: #e8f5fe;
+  border-radius: 99px;
+}
+.post__header--top {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.post__header--top > form {
+  flex: 1;
+}
+.post__info {
+  overflow: scroll;
+  height: 100%;
+}
+.post__info::-webkit-scrollbar {
+  display: none;
+}
+.post__header {
+  border-bottom: 10px solid whitesmoke;
+}
+.post__header--top > form > input {
+  width: 90%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  outline: 0;
+}
+.post__header--top > form > button {
+  display: none !important;
+}
+.post__header--bottom__left {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  margin-bottom: 5px;
+}
+.post__header--bottom__left > .MuiSvgIcon-root {
+  margin-left: 12px;
+  color: #1da1f2 !important;
+}
+.post__header--bottom__left > .MuiSvgIcon-root:hover {
+  background-color: #e8f5fe;
+}
+.post__header--bottom__left > button {
+  margin-right: 15px;
+  margin-left: auto;
+  border-radius: 27px;
+  color: white;
+  background-color: #1da1f2;
+  text-transform: inherit;
+  padding: 8px 15px;
+}
+.post__header--bottom__left > button:hover {
+  color: white;
+  background-color: #1da1f2;
+}
+.feed__post {
+  display: flex;
+  flex-direction: column;
+}
